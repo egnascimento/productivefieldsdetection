@@ -1,4 +1,4 @@
-# Crop Field Detection with Machine Learning
+# Productive Crop Field Detection
 
 This repository contains a project focused on detecting productive crop fields. The goal is to develop a model that can analyze satellite imagery and identify areas where crops are thriving, enabling farmers and agricultural organizations to make informed decisions about resource allocation and crop management.
 
