@@ -29,6 +29,8 @@ The hexes are processed to create timeseries samples containing various image da
 
 ![dataset](res/sample.png)
 
+These samples are organized in numpy arrays and later transferred to tensorflow datasets according to the utilized method.
+
 ## Installation
 
 To set up the project locally, follow these steps:
