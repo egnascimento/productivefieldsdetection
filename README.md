@@ -21,6 +21,14 @@ The productivity of crop fields plays a crucial role in the agricultural sector.
 
 The dataset used for this project consists of satellite imagery samples containing labeled crop field data. The dataset includes various satellite bands, such as near-infrared (NIR), red, green, and blue, which provide valuable information about the vegetation and presence of crops. The labeled data indicates the presence or absence of productive crop fields in the images. The dataset is indexed by L12 hexes supported by H3 library developed by Uber.
 
+The dataset description containing the number of hexes and average image dates by field is represented in the image below.
+
+![dataset](res/dataset.png)
+
+The hexes are processed to create timeseries samples containing various image dates to cover most of the year and the diverse weather conditions as well as cloud covering. The representation of a timeseries sample where each row is an image date and each column a Sentinel-2 band is represented below.
+
+![dataset](res/sample.png)
+
 ## Installation
 
 To set up the project locally, follow these steps:
