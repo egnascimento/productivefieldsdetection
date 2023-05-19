@@ -19,11 +19,16 @@ The productivity of crop fields plays a crucial role in the agricultural sector.
 
 ## Dataset
 
-The dataset used for this project consists of satellite imagery samples containing labeled crop field data. The dataset includes various satellite bands, such as near-infrared (NIR), red, green, and blue, which provide valuable information about the vegetation and health of the crops. The labeled data indicates the presence or absence of productive crop fields in the images.
+The dataset used for this project consists of satellite imagery samples containing labeled crop field data. The dataset includes various satellite bands, such as near-infrared (NIR), red, green, and blue, which provide valuable information about the vegetation and presence of crops. The labeled data indicates the presence or absence of productive crop fields in the images. The dataset is indexed by L12 hexes supported by H3 library developed by Uber.
 
 ## Installation
 
 To set up the project locally, follow these steps:
+- Install python 3.7 or above.
+- Install Jupyter notebook.
+- Run the notebook.
+
+All packages should be installed at the start of the notebook.
 
 ## Usage
 
