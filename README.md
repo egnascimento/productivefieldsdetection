@@ -44,6 +44,6 @@ To evaluate the methods the authors used the most commonly used metrics in this 
 ## License
 
 ## Documentation
-This code is part of a research paper. Link to be included.
+This code is part of the research paper "Productive Crop Field Detection: A New Dataset and Deep Learning Benchmark Results". Link to be included here.
 
 
