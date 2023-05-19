@@ -31,13 +31,19 @@ To set up the project locally, follow these steps:
 All packages should be installed at the start of the notebook.
 
 ## Usage
+The notebook has a sample approach of how to load the dataset using Pandas, generate bidimensional timeseries samples and input them to the methods for training and validation.
 
 ## Model Training
+Model training is also in the notebook. The selected models take in account the nature of the dataset which has very accurate positive labeled data plus inferred and less accurate negative labeled data.
 
 ## Evaluation
+To evaluate the methods the authors used the most commonly used metrics in this field. We also focused in metrics for imbalanced data since there is in most of rural images a larger portion of field pixels compared to non-field pixels.
 
 ## Contributing
 
 ## License
+
+## Documentation
+This code is part of a research paper. Link to be included.
 
 
