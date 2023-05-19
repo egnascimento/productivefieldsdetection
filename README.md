@@ -23,11 +23,15 @@ The dataset used for this project consists of satellite imagery samples containi
 
 The dataset description containing the number of hexes and average image dates by field is represented in the image below.
 
+<p align="center">
 ![dataset](res/dataset.png)
-
+</p>
+  
 The hexes are processed to create timeseries samples containing various image dates to cover most of the year and the diverse weather conditions as well as cloud covering. The representation of a timeseries sample where each row is an image date and each column a Sentinel-2 band is represented below.
 
+<p align="center">
 ![dataset](res/sample.png)
+</p>
 
 These samples are organized in numpy arrays and later transferred to tensorflow datasets according to the utilized method.
 
@@ -47,7 +51,13 @@ The notebook has a sample approach of how to load the dataset using Pandas, gene
 Model training is also in the notebook. The selected models take in account the nature of the dataset which has very accurate positive labeled data plus inferred and less accurate negative labeled data.
 
 ## Evaluation
-To evaluate the methods the authors used the most commonly used metrics in this field. We also focused in metrics for imbalanced data since there is in most of rural images a larger portion of field pixels compared to non-field pixels.
+To evaluate the methods the authors used the most commonly used metrics in this field. We also focused in metrics for imbalanced data since there is in most of rural images a larger portion of field pixels compared to non-field pixels. The results achieved by the evaluated benchmark methods are listed in the table below.
+
+<p align="center">
+![results](res/results.png)
+</p>
+
+There might be some slight variation depending on the method due to the random nature of some steps.
 
 ## Contributing
 
