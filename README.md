@@ -64,6 +64,6 @@ There might be some slight variation depending on the method due to the random n
 ## License
 
 ## Documentation
-This code is part of the research paper "Productive Crop Field Detection: A New Dataset and Deep Learning Benchmark Results". Link to be included here.
+This code is part of the research paper "Productive Crop Field Detection: A New Dataset and Deep Learning Benchmark Results". The PDF is available at https://arxiv.org/abs/2305.11990 .
 
 
